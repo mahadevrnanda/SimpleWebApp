@@ -11,7 +11,7 @@ MarkupSafe==1.1.1
 numpy==1.17.1
 pipreqs==0.4.9
 requests==2.22.0
-torch==1.2.0
+torch==https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp37-cp37m-linux_x86_64.whl
 urllib3==1.25.3
 Werkzeug==0.15.5
 yarg==0.1.9
