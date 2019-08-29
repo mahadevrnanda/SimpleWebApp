@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return "<h1>Deeployed to Heorku!!! Abhishek Yanamandra</h1>"
+	return "<h1>Deployed to Heroku!!! Abhishek Yanamandra</h1>"
 
 
 @app.route('/random', methods=['GET'])
