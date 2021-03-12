@@ -14,3 +14,4 @@ def random():
     size = request.args.get('size')
     dims = [int(k) for k in size.split('x')]
     return jsonify(array=np.random.randn(*dims).tolist(), size=int(np.array(dims).prod()))
+test
